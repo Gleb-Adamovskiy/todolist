@@ -6,6 +6,7 @@ services:
     restart: always
     env_file:
       - .env
+
     volumes:
       - pg_data_todolist:/var/lib/postgresql/data
     ports:
